@@ -7,7 +7,7 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @SpringBootApplication
 @EnableDiscoveryClient
 public class ServiceAdminApplication {
-    public static void main(String [] args){
-        SpringApplication.run(ServiceAdminApplication.class,args);
+    public static void main(String [] arg){
+        SpringApplication.run(ServiceAdminApplication.class,arg);
     }
 }
